@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/header/Header';
-import Hero from './components/hero/Hero';
+import Hero from './components/hero/Hero.jsx';
 function App() {
   return (
     <div className="App">
