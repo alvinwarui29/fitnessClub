@@ -39,3 +39,20 @@
     border-radius: 3rem;
     z-index: 1;
 }
+.hero-text{
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-overflow: inherit;
+}
+.hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    width: 80%;
+    letter-spacing: 1px;
+}
