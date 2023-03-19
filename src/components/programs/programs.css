@@ -1,0 +1,16 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.progress-header{
+    display: flex;
+    font-weight: bold;
+    gap: 5rem;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
