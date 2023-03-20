@@ -1,10 +1,32 @@
 import "./testimonial.css";
-import React from 'react'
+import React,{useState} from "react";
+import { testimonialsData } from './../../data/testimonialsData';
 
 const Testimonials = () => {
-  return (
-    <div>Testimonials</div>
-  )
-}
+    const [selected,setSelected] = useState(0);
+    const tlength = testimonialsData.length;
 
-export default Testimonials
+  return (
+    <div className="testimonials">
+      <div className="left-t">
+        <span>Testimonials</span>
+        <span className="stroke-text">What they</span>
+        <span>say about us</span>
+        <span>
+            {testimonialsData[selected].review}
+        </span>
+        <span>
+            <span style={{color:'var(--orange)'}}> 
+                { testimonialsData[selected].name}
+            </span>{" "}
+           
+            {testimonialsData[selected].status}
+            
+        </span>
+      </div>
+      <div className="right-t"></div>
+    </div>
+  );
+};
+
+export default Testimonials;
