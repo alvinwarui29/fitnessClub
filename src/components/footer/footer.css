@@ -1,6 +1,6 @@
 .footer-container{
     position: relative;
-    margin-bottom: 10rem;
+
 }
 .footer-container>hr{
     border: 1px solid var(--lightgray) ;
