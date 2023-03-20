@@ -15,7 +15,12 @@ const Join = () => {
           <span className="stroke-text">WITH US?</span>
         </div>
       </div>
-      <div className="right-j"></div>
+      <div className="right-j">
+        <form action="" className="email-container">
+            <input type="email" name="user_email" placeholder="email@gmail.com" />
+            <button className="btn btn-j">Join now</button>
+        </form>
+      </div>
     </div>
   );
 };

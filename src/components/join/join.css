@@ -2,6 +2,7 @@
     display: flex;
     padding: 0 2rem;
     gap: 10rem;
+    margin-bottom: 10rem;
 }
 .left-j{
     color: white;
@@ -17,4 +18,27 @@ hr{
     border-radius: 20%;
     margin: -10px 0;
 }
-.right-j{}
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.email-container{
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgrayz);
+}
+::placeholder{
+    color: var(--lightgrayz);
+}
+.btn-j{
+    background-color: var(--orange);
+    color: white;
+}
